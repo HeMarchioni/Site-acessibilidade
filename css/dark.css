@@ -1,0 +1,54 @@
+.dark-background {
+    background-color: black;
+    color: white;
+  }
+  
+  .dark-footer {
+    background-color: #006161;
+  }
+  
+  .dark-links {
+    color: white;
+  }
+  
+  .dark-posts {
+    background-color: #006161;
+  }
+
+  .dark-banner {
+      color: black;
+  }
+
+th, td {
+    border: 1px solid white;
+}
+
+#img-dark {
+    width: 15px;
+    height: 15px;
+}
+
+.nav-list li .dark-ul {
+  background-color: #000;
+}
+
+.btnConteudo {
+  color: #9e009e;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1.5em
+}
+
+.btnConteudo:hover {
+  background: #999;
+  border-radius: 10px
+}
+
+.btnConteudoDark {
+  color: #fff;
+}
+
+.dark-invalido {
+  color : white
+
+}

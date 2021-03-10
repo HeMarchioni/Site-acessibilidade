@@ -1,0 +1,230 @@
+<!DOCTYPE html>   <!--pag criada por /@carlos @henrique @cyro/  projeto A2  finalizada 21/06/2020-->
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    
+	<title>Contato - Gisele Soares</title>
+    <link rel="stylesheet" type="text/css" href="css/contato.css" />
+    <link rel="stylesheet" type="text/css" href="css/header-footer.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="imagens/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imagens/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagens/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imagens/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagens/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imagens/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imagens/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imagens/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="imagens/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imagens/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imagens/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/dark.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/formulario.js" defer></script>
+    
+  <script>
+        
+        function abir_Nav() {
+          document.getElementById("menu_lateral").style.width = "250px";
+        }
+        
+        function fechar_nav() {
+          document.getElementById("menu_lateral").style.width = "0";
+        }
+  </script>
+   
+   
+   
+    </head>
+  
+    <body>
+  
+      <header>
+          
+        <p> <a class="btnConteudo" href="#principal"> Conteudo principal</a></p>
+        <button id="btn-tema" >Tema Escuro</button> 
+        
+        <div id="menu_lateral" class="menu_lateral">
+          <div class="botoes">
+          <a href="javascript:void(0)" id="botao-fechar" class="botao_fechar" onclick="fechar_nav()">×</a>
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre</a>
+          <dl>
+            <dt>Especialidades<img id="seta-menu2" src="imagens/seta-baixo.png" alt="Seta para baixo indicando um menu com dropdown"></dt>
+            <dd><a href="autismo.html">Autismo</a></dd>
+            <dd><a href="deficiencia_mental.html">Deficiência Mental</a></dd>
+            <dd><a href="Sindrome_Down.html">Síndrome de Down</a></dd>
+          </dl>
+          <a href="contato.html">Contato</a>
+        </div>  
+        </div>
+  
+          <button class="botao_abrir" onclick="abir_Nav()">☰ Menu</button> 
+        
+        
+        
+        
+        <img class="header-logo" src="imagens/logo.png" alt="logo GISELE SOARES Terapeuta Ocupacional">
+          
+          <nav class="nav-menu">
+              <ul class="nav-list">
+                <li class=""><a href="index.html">Início</a></li>
+                <li class=""><a href="sobre.html">Sobre</a></li>
+                  <li><a href="#">Especialidades<img id="seta-menu" src="imagens/seta-baixo.png" alt="Seta para baixo indicando um menu com dropdown"></a>
+                    <ul id="dark-ul">
+                      <li><a href="autismo.html">Autismo</a></li>
+                      <li><a href="deficiencia_mental.html">Deficiência Mental</a></li>
+                      <li><a href="Sindrome_Down.html">Síndrome de Down</a></li>
+                    </ul>
+                  </li>
+  
+                <li class=""><a href="contato.html">Contato</a></li>
+              </ul>
+            </nav>
+  
+  
+          
+  
+      </header>
+          
+     
+
+
+    <main id="principal">
+        <h1>Contato <span class="gisele"> Soares Terapeuta Ocupacional</span></h1>
+
+        <h2>Tire suas dúvidas ou entre em contato</h2>
+
+        <div class="main-container">
+          <div class="bloco-form">
+
+           <h3 class="invalidos"> Aviso - dados invalidos </h3> 
+            <p class="p_invalido"> </p>
+            <p class="p_invalido">  </p>
+            <p class="p_invalido">  </p>
+            <p class="p_invalido"> * Prencha novamente !!!! </p>
+            <h3>Deixe sua dúvida e entraremos em contato quando possível</h3>          
+            <form method="post" action="http://hub.fatecrl.edu.br/sobrino/recebe.php">   
+              <p>
+                <label> 
+               <span class="valid_form_ast" >*</span> Nome  <input type="text" 
+                            name="nome" 
+                            id="nome" 
+                            size="40" 
+                            maxlength="40" 
+                            placeholder="Digite seu nome (Obrigadorio)"
+                            required>
+                    <span class="valid_form">*</span>
+                </label>
+              </p>
+
+              <p>
+                <label>
+                  <span class="valid_form_ast">*</span>  E-mail <input   type="email" 
+                                name="email" 
+                                id="email" 
+                                size="40" 
+                                maxlength="40"
+                                placeholder="Digite seu E-mail (Obrigatorio)"
+                                required>
+                      <span class="valid_form">*</span>
+                </label>
+              </p>
+              
+
+              <p>
+                <label>
+                  <span class="valid_form_ast" >*</span>Telefone <input   type="tel" 
+                                name="Tel" 
+                                id="tel" 
+                                size="40" 
+                                maxlength="11"
+                                placeholder="Digite seu Telefone com DDD (não Obrigatorio)"
+                                >
+                                <span class="valid_form">*</span>
+                </label>
+              </p>
+
+
+
+              <p>
+                
+                <label id="textarea">
+                  Mensagem:<br>
+                  <textarea 
+                  placeholder="Digite sua mensagem (não Obrigatorio)" 
+                  name="mensagem" id="mensagem" 
+                  cols="35" 
+                  rows="10"
+                  maxlength="150"
+                  ></textarea>
+                </label>
+              </p>
+          
+              <input type="hidden" name="Enviado_de" value="Contato-GISELE-SORES-Terapeuta-Ocupacional">
+
+              <button type="submit" class="enviar">
+                Enviar
+              </button>
+
+          
+            </form>
+          </div>
+        
+          <div class="bloco-social">
+            <h3>Siga nas redes sociais para mais informações</h3>
+            <div class="contato-social">
+              <p> <span class="i">Instagram:</span> <a href="#"><img class="img-social" src="imagens/insta.png" alt="Logo do Instagram"></a></p>
+
+              <p><span class="f">Facebook:</span> <a href="#"><img class="img-social" src="imagens/face.png" alt="Logo do Facebook"></a></p>
+
+              <p><span class="w"> Whatsapp:</span> <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5513997352803"><img class="img-social" src="imagens/whats.png" alt="icone para contato via whatsapp click para acesso"></a></p>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+    </main>
+
+      
+      
+
+    <footer>
+
+      <div class="footer-logo">
+        <img class="img-footer" src="imagens/logo_footer.png" alt="logo GISELE SOARES Terapeuta Ocupacional">
+      </div>
+     
+      <div class="div-footer">
+
+        <img class="cliente-footer" src="imagens/gisele.jpg" alt="Foto da Gisele Soares"> 
+        
+        <p class="p-footer">
+            Gisele Soares<br>
+            Terapeuta Ocupacional<br>
+            Siga para mais informações
+        </p>
+
+        <div class="div-social">
+           <a href="https://www.facebook.com/"> <img class="face" src="imagens/Face1.png" alt="link para o Facebook representado pela imagem de sua logo"></a>
+           <a href="https://www.instagram.com/"> <img class="insta" src="imagens/Insta1.png" alt="link para o Instagram representado pela imagem de sua logo"></a>
+           <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5513997352803"> <img class="whatsapp" src="imagens/Whats1.png" alt="icone para contato via whatsapp click para acesso"></a>
+           <!-- Utilizamos endereços padrões porque a cliente ainda irá criar suas páginas nas redes sociais. -->
+        </div>
+
+      </div>
+
+
+    </footer>
+  </body>
+</html>

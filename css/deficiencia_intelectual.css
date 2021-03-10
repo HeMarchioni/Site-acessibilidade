@@ -1,0 +1,80 @@
+@charset "utf-8"; 
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5em 0;
+}
+
+
+h1{
+    background-color: #006161;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+/* MAIN */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    flex: 1 1 100%;
+}
+
+.p-post {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.img-post {
+    width: 10em;
+    min-width: 30%;
+    display: flex;
+    margin: 5em auto;
+
+}
+
+
+.script-face {
+    width: 90%;
+    margin: 1em auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.1em;
+    margin: 1em auto;
+    width: 90%;
+}
+
+
+@media (max-width: 700px) {
+    .p-post {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .img-post {
+        margin: 1em auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .img-post {
+        width: 90%;
+    }
+
+    h2 {
+        margin: 1em;
+    }
+}
